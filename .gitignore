@@ -1,0 +1,53 @@
+# Google Apps Script
+.clasp.json
+.clasprc.json
+
+# Node modules (if using clasp)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Credentials and secrets
+credentials.json
+token.json
+service-account-key.json
+*.key
+*.pem
+
+# Local development
+.local/
+scratch/
